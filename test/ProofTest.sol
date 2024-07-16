@@ -6,11 +6,7 @@ import {MerkleProof} from "@openzeppelin/contracts/utils/cryptography/MerkleProo
 contract ProofTest {
     using MerkleProof for *;
 
-    function testVerify(
-        bytes32[] memory proof,
-        bytes32 root,
-        bytes32 leaf
-    ) public pure returns (bool) {
+    function testVerify(bytes32[] memory proof, bytes32 root, bytes32 leaf) public pure returns (bool) {
         return proof.verify(root, leaf);
     }
 }
