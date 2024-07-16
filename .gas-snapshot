@@ -1,1 +1,2 @@
-ProofTest:testVerify(bytes32[],bytes32,bytes32) (runs: 5000, μ: 31250, ~: 31101)
+ProofTest:testVerify(bytes32[],bytes32,bytes32) (runs: 5000, μ: 38555, ~: 38273)
+ProofTest:testVerifyFixed() (gas: 5458)
